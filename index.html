@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <title>Denúncias Anônimas</title>
+    <link rel="stylesheet" href="styles.css">
+   
+
+</head>
+
+<body>
+    <header>
+        <div class="logo">
+            <img src="./imagem/logo.jpeg"><img>
+    </div>
+
+        <nav>
+            <ul>
+                <li><a href="inicio">Início</a></li>
+                <li><a href="violencia">O que é violência contra a Mulher?</a></li>
+                <li><a href="tipos">Tipos de violência</a></li>
+                <li><a href="ajuda">Como pedir ajuda?</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="transferir">
+        <img src="./imagem/transferir.png" alt="transferir" >
+    </div>
+
+
+    <section class="info" id="violencia">
+        <h2>O que é violência contra a Mulher?</h2>
+        <p>"A violência contra a mulher é todo ato lesivo que resulte em dano físico, psicológico, sexual, patrimonial, que tenha por motivação principal o gênero, ou seja, é praticado contra mulheres expressamente pelo fato de serem mulheres."</p>
+    </section>
+
+    <section class="info" id="tipos">
+        <h2>Tipos de violência</h2>
+        <p>Existem 5 Tipos:</p>
+        
+        <div class="violenca">
+            <div class="image">
+                <img src="imagem/viofisica.jpeg" alt="Violência Física">
+            </div>
+            <div class="text">
+                <h3>Violência Física</h3>
+                <p>A violência física é qualquer conduta que ofenda a integridade ou saúde corporal, como tapas, empurrões, puxões de cabelo, entre outros.</p>
+            </div>
+        </div>
+
+        <div class="violenca">
+            <div class="image">
+                <img src="imagem/violenciapsicologica.jpeg" alt="Violência Psicológica">
+            </div>
+            <div class="text">
+                <h3>Violência Psicológica</h3>
+                <p>A violência psicológica é qualquer conduta que cause dano emocional e prejudique o bem-estar psicológico da vítima.</p>
+            </div>
+        </div>
+
+        <div class="violenca">
+            <div class="image">
+                <img src="imagem/violenciasexual.jpeg" alt="Violência Sexual">
+            </div>
+            <div class="text">
+                <h3>Violência Sexual</h3>
+                <p>A violência sexual inclui qualquer conduta que force a vítima a participar de atividades sexuais contra sua vontade.</p>
+            </div>
+        </div>
+
+        <div class="violenca">
+            <div class="image">
+                <img src="imagem/violenciapatrimonial.jpeg" alt="Violência Patrimonial">
+            </div>
+            <div class="text">
+                <h3>Violência Patrimonial</h3>
+                <p>A violência patrimonial envolve a retenção ou destruição de bens e recursos econômicos da vítima.</p>
+            </div>
+        </div>
+
+        <div class="violenca">
+            <div class="image">
+                <img src="imagem/violenciamoral.jpeg" alt="Violência Moral">
+            </div>
+            <div class="text">
+                <h3>Violência Moral</h3>
+                <p>A violência moral é qualquer conduta que ofenda a honra da vítima, como calúnia e difamação.</p>
+            </div>
+        </div>
+
+    </section>
+
+    <section class="help" id="ajuda">
+        <h2>Como pedir ajuda?</h2>
+        <div class="help-box">
+            <h3>Ligue 190: Emergências</h3>
+            <p>Em caso de emergência, ligue para a polícia no número 190. A ligação é gratuita e o serviço funciona 24 horas por dia.</p>
+            <button>Ligar agora</button>
+        </div>
+        <div class="help-box">
+            <h3>Ligue 197: Violência doméstica</h3>
+            <p>Registre a ocorrência em uma delegacia de polícia. Você pode ligar para o 197.</p>
+            <button>Ligar agora</button>
+        </div>
+        <div class="help-box">
+            <h3>Ligue 180</h3>
+            <p>Para denúncias e informações, ligue 180.</p>
+            <button>Ligar agora</button>
+        </div>
+    </section>
+
+    <section class="form-section">
+        <h2>Faça uma Denúncia</h2>
+        <form id="denunciaForm">
+            <div class="form-group">
+                <label for="descricao">Descrição da Denúncia</label>
+                <textarea id="descricao" name="descricao" required></textarea>
+            </div>
+            <div class="form-group">
+                <label for="local">Local do Incidente</label>
+                <input type="text" id="local" name="local" required>
+            </div>
+            <div class="form-group">
+                <label for="data">Data do Incidente</label>
+                <input type="date" id="data" name="data" required>
+            </div>
+            <button type="submit">Enviar Denúncia</button>
+        </form>
+        <div id="mensagem" class="hidden">Obrigado pela sua denúncia. Estamos tomando as providências necessárias.</div>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
+

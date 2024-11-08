@@ -1,0 +1,175 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color:darkviolet;
+    color: white;
+}
+
+.logo img {
+    
+    height: 50px;
+}
+
+nav ul {
+    text-align: right;
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    
+    margin-left: 40px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.transferir {
+    display: grid;
+    place-items: center;
+    height: 100vh; 
+}
+
+.transferir img {
+    height: 600px;
+}
+
+.hero-text {
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    border-radius: 8px;
+}
+
+section {
+    padding: 40px 20px;
+}
+
+.info {
+    background-color: #fff;
+    margin: 20px 0;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.help {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.help-box {
+    margin: 20px 0;
+    padding: 20px;
+    background-color: #EDEDED;
+    border-radius: 8px;
+}
+
+.help-box h3 {
+    margin-top: 0;
+}
+
+.help-box button {
+    background-color:darkviolet;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.help-box button:hover {
+    background-color:darkviolet;
+}
+
+.form-section {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background-color:darkviolet;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color:darkviolet;
+}
+
+.hidden {
+    display: none;
+}
+
+.violenca {
+    display: flex; 
+    align-items: center;
+    margin-bottom: 20px;
+    background-color: #fff; 
+    padding: 20px;
+    border-radius: 10px; 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
+}
+
+.violenca .image {
+    flex: 1; 
+    padding-right: 15px; 
+}
+
+.violenca .image img {
+    max-width: 100%; 
+    border-radius: 10px; 
+}
+
+.violenca .text {
+    flex: 2; 
+}
+
+.violenca .text h3 {
+    font-size: 1.8rem; 
+    color: #333; 
+    margin-bottom: 10px;
+}
+
+.violenca .text p {
+    font-size: 1rem;
+    color: #666;
+}
+
+body {
+    font-family: 'Roboto', sans-serif; 
+}
